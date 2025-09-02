@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
       <html lang="en">
-            <body className={geist.className}>
+            <body className={'bg-white min-h-screen min-w-screen'}>
                 <TRPCProvider>
                     {children}
                 </TRPCProvider>
